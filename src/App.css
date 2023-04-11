@@ -1,0 +1,155 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.homepage img {
+  width: 50rem;
+}
+
+.sidenav {
+  font-size: 1.5rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #5b5a5a;
+  padding-top: 3rem;
+  color: white;
+}
+
+.sidenav-title,
+.sidenav-new-mate,
+.sidenav-gallery {
+  color: white;
+}
+
+.sidenav-img {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.create-title-img {
+  width: 30rem;
+}
+
+li {
+  list-style: none;
+}
+.create-attributes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.attribute-title {
+  font-size: 2rem;
+}
+input {
+  margin: 0rem 1rem;
+  font-size: 2rem;
+}
+.attribute-name,
+.attribute-color,
+.attribute-speed {
+  background-color: #5b5a5a;
+  border-radius: 1rem;
+}
+
+.attribute-color {
+  padding: 1rem;
+}
+
+.colors-choice-list {
+  text-align: left;
+}
+
+.create-btn {
+  font-size: 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.mate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #5b5a5a;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 40%;
+}
+.mate-img {
+  width: 15rem;
+}
+.edit-mate {
+  background-color: #254775;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+.ReadMates {
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.detail-mate-img {
+  width: 20rem;
+}
+
+.detail-mate-info {
+  font-size: 2rem;
+}
+
+.attribute-input {
+  background-color: rgb(101, 15, 15);
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
